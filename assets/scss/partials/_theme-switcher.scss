@@ -51,6 +51,10 @@
   .pagination__item:hover {
     background-color: #666666 !important;
   }
+
+  .social-icons__icon {
+    filter: invert(100%);
+  }
 }
 
 .theme-switcher {
