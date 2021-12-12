@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<!-- From Anubis https://github.com/Mitrichius/hugo-theme-anubis/blob/master/layouts/_default/baseof.html -->
+{{ $dataTheme := "" }}
+{{ if eq site.Params.style "dark-without-switcher" }}
+    {{ $dataTheme = "dark" }}
+{{ end }}
+<html lang="{{ .Site.LanguageCode }}" data-theme="{{ $dataTheme }}">
 
 <head>
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
@@ -50,6 +55,7 @@
   {{ partial "burger.html" .}} 
 
   {{ partial "nav.html" .}}
+  {{ partial "theme-switcher.html" . }} 
 
   <main>
     {{ block "main" . }} {{ end }}

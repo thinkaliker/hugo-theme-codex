@@ -23,8 +23,8 @@
     "last 2 version",
     "> 2%"
   ],
-  "homepage": "https://github.com/jakewies/hugo-theme-codex",
-  "bugs": "https://github.com/jakewies/hugo-theme-codex/issues",
+  "homepage": "https://github.com/thinkaliker/hugo-theme-codex",
+  "bugs": "https://github.com/thinkaliker/hugo-theme-codex/issues",
   "keywords": [
     "hugo",
     "blog",

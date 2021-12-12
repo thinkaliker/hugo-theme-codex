@@ -1,0 +1,68 @@
+@media (prefers-color-scheme: dark) {
+  [data-theme="dark"] {
+    background-color: #333333 !important;
+    color: white !important;
+  }
+
+  html {
+    background-color: #333333 !important;
+    color: white !important;
+  }
+
+  body {
+    background-color: #333333 !important;
+    color: white !important;
+  }
+
+  a {
+    color: white !important;
+  }
+
+  nav {
+    background-color: #333333 !important;
+    color: white !important;
+  }
+
+  pre {
+    background-color: #333333 !important;
+  }
+
+  footer {
+    background-color: #333333 !important;
+  }
+
+  th {
+    background-color: #333333 !important;
+  }
+
+  blockquote {
+    color: white !important;
+  }
+
+  .tag__link {
+    color: black !important;
+    background-color: #cccccc !important;
+  }
+
+  .pagination__title {
+    color: white !important;
+  }
+
+  .pagination__item:hover {
+    background-color: #666666 !important;
+  }
+}
+
+.theme-switcher {
+  position: fixed;
+  left: 2em;
+  bottom: 2em;
+}
+
+.theme-switcher [data-theme="light"] {
+  color: black !important;
+}
+
+.theme-switcher [data-theme="dark"] {
+  color: white !important;
+}

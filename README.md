@@ -1,5 +1,7 @@
 ## Codex
 
+Modified by thinkaliker.
+
 A minimal blog theme built for [Hugo](https://gohugo.io/) 🍜
 
 ![Hugo desktop screenshot](/images/screenshot.png)
